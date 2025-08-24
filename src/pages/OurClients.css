@@ -1,0 +1,88 @@
+.client-section {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #f9f9f9;
+}
+
+.client-section h2 {
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    position: relative;
+    display: inline-block;
+}
+
+.client-section h2::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: #0077ff;
+    margin: 10px auto 0;
+    border-radius: 2px;
+}
+
+.client-section p {
+    max-width: 850px;
+    margin: 0 auto 50px;
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.8;
+}
+
+.client-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+
+/* Tablet view */
+
+@media (max-width: 1024px) {
+    .client-image {
+        width: 95%;
+    }
+}
+
+
+/* Mobile view */
+
+@media (max-width: 768px) {
+    .client-image {
+        width: 100%;
+    }
+}
+
+
+/* ===== Scroll animation effect ===== */
+
+.scroll-animate {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: transform 1s ease, opacity 1s ease;
+}
+
+.scroll-animate.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+/* Staggered animation */
+
+.stagger-animate {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.stagger-animate.show {
+    opacity: 1;
+    transform: translateY(0);
+}

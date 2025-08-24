@@ -1,0 +1,195 @@
+footer.footer {
+    background-color: #000000 !important;
+    /* force black background */
+    color: #ffffff !important;
+    /* force white text */
+}
+
+footer.footer p,
+footer.footer h3,
+footer.footer a,
+footer.footer li {
+    color: #ffffff !important;
+}
+
+
+/* Make email links blue */
+
+footer.footer a[href^="mailto:"] {
+    color: #1e90ff !important;
+    /* Dodger Blue */
+}
+
+footer.footer a[href^="mailto:"]:hover {
+    text-decoration: underline;
+}
+
+
+/* Add mail icon before email links */
+
+footer.footer a[href^="mailto:"]::before {
+    margin-right: 6px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-left,
+.footer-right {
+    flex: 1;
+    min-width: 280px;
+    margin: 10px;
+}
+
+.footer-logo {
+    width: 220px;
+    /* default for desktop */
+    height: auto;
+    /* keep aspect ratio */
+    margin-bottom: 15px;
+}
+
+
+/* Tablets */
+
+@media (max-width: 1024px) {
+    .footer-logo {
+        width: 180px;
+    }
+}
+
+
+/* Mobile */
+
+@media (max-width: 768px) {
+    .footer-logo {
+        width: 140px;
+    }
+}
+
+
+/* Small phones */
+
+@media (max-width: 480px) {
+    .footer-logo {
+        width: 120px;
+    }
+}
+
+.footer-text {
+    color: #333;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.discover-btn {
+    display: inline-block;
+    background-color: #000;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.discover-btn:hover {
+    background-color: #444;
+}
+
+.footer-right h3 {
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.footer-right p,
+.footer-right a {
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-right ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.footer-right ul li {
+    margin: 5px 0;
+}
+
+.footer-right ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.footer-right ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 15px;
+    border-top: 1px solid #ddd;
+    font-size: 14px;
+    color: #666;
+}
+
+.footer-pages {
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.footer-pages li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    /* bigger font */
+    font-weight: 600;
+    /* bolder */
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+}
+
+.footer-pages li {
+    margin-bottom: 18px;
+    /* more spacing between items */
+}
+
+.footer-pages li:last-child {
+    margin-bottom: 0%;
+}
+
+.footer-pages li a:hover {
+    color: #1e90ff;
+    /* nice blue hover */
+    text-decoration: underline;
+    transform: translateX(4px);
+    /* subtle movement on hover */
+}
+
+
+/* Make section title bigger if you have one */
+
+.footer-right h3 {
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+
+/* Mobile adjustments */
+
+@media (max-width: 768px) {
+    .footer-pages li a {
+        font-size: 1.2rem;
+        /* slightly bigger for mobile tap targets */
+    }
+}

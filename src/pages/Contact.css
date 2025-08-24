@@ -1,0 +1,156 @@
+.contact-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 50px 20px;
+    gap: 50px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+
+/* White background container for contact form */
+
+.contact-form-container {
+    flex: 1;
+    min-width: 300px;
+    background: white;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.contact-info {
+    flex: 1;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.contact-info h2 {
+    font-size: 2.8rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+.contact-info p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+
+/* Buttons under paragraph */
+
+.contact-buttons {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: flex-start;
+}
+
+
+/* Button Base Style */
+
+.btn {
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: fit-content;
+}
+
+
+/* Call Us Button */
+
+.primary-btn {
+    background-color: #111111;
+    color: white;
+}
+
+.primary-btn:hover {
+    background-color: #3a421a;
+}
+
+
+/* Email Us Button */
+
+.secondary-btn {
+    background-color: transparent;
+    border: 2px solid #111111;
+    color: #111111;
+}
+
+.secondary-btn:hover {
+    background-color: #111111;
+    color: white;
+}
+
+.contact-form-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 15px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.contact-form button {
+    padding: 12px;
+    background-color: #111111;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact-form button:hover {
+    background-color: #3a421a;
+}
+
+.contact-footer {
+    margin-top: 30px;
+}
+
+.contact-footer hr {
+    border: none;
+    border-top: 2px solid #ccc;
+    margin-bottom: 15px;
+    max-width: 100%;
+}
+
+.contact-details {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.left-column,
+.right-column {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}

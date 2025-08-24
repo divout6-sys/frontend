@@ -1,0 +1,58 @@
+.product-container {
+    margin: 100px auto 40px;
+    /* Added top margin for navbar spacing */
+    padding: 20px;
+    max-width: 1000px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.product-heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+/* Image and description hidden by default */
+
+.product-image,
+.product-description {
+    opacity: 0;
+    transition: transform 1s ease, opacity 1s ease;
+}
+
+.product-image {
+    transform: translateX(-100px);
+    flex: 1;
+}
+
+.product-description {
+    transform: translateX(100px);
+    flex: 1;
+}
+
+
+/* When in view, animate into place */
+
+.product-container.show .product-image {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.product-container.show .product-description {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.product-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
