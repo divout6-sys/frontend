@@ -26,7 +26,7 @@ const ProductSection = () => {
   const products = [
     {
       title: "Front Marker Lamp",
-      img: "/images/lights0.PNG",
+      img: "/images/lights0.png",
       desc: "Front marker lights are typically mounted below or to the side of the vehicle's normal headlights. They help make the vehicle visible to oncoming drivers or indicate a vehicle is following.",
     },
     {
@@ -41,7 +41,7 @@ const ProductSection = () => {
     },
     {
       title: "Map Reading Light",
-      img: "/images/lights3.PNG",
+      img: "/images/lights3.png",
       desc: "Map reading light is installed on the passenger side dashboard or inside the glove compartment. It is used for reading maps with sufficient light.",
     },
     {
