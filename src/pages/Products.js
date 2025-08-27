@@ -46,12 +46,12 @@ const ProductSection = () => {
     },
     {
       title: "Blackout Tail Light Assembly",
-      img: "/images/lights8.PNG",
+      img: "/images/lights8.png",
       desc: "This is a military-style vehicle tail light assembly, commonly used in heavy-duty vehicles, military trucks, or off-road applications.",
     },
     {
       title: "Submachine Gun Holders",
-      img: "/images/lights4.PNG",
+      img: "/images/lights4.png",
       desc: "As the name suggests, SMG Rack is used to hold guns while the vehicle is in movement. It comprises two parts: Rack Top & Rack Bottom.",
     },
     {
@@ -61,37 +61,37 @@ const ProductSection = () => {
     },
     {
       title: "Jumper Cable (16mm2)",
-      img: "/images/lights6.PNG",
+      img: "/images/lights6.png",
       desc: "A jumper cable with thick electrical cable size 16mm2 and copper clamps. Used to head start a car or another vehicle.",
     },
     {
       title: "12 Pin / Receptacle Cable (SPIRAL TYPE)",
-      img: "/images/lights7.PNG",
+      img: "/images/lights7.png",
       desc: "A spiral cable with a receptacle at one end and 12 pin at the other end, used to connect the trailer with the vehicle.",
     },
     {
       title: "12 Pin / Receptacle Cable (STRAIGHT TYPE)",
-      img: "/images/lights9.PNG",
+      img: "/images/lights9.png",
       desc: "A straight cable with a receptacle at one end and 12 pin at the other end, used to connect the trailer with the vehicle.",
     },
     {
       title: "Jumper Cable (35mm2)",
-      img: "/images/lights11.PNG",
+      img: "/images/lights11.png",
       desc: "A 3 or 5 meter jumper cable, size 35mm2, with clamps at one end and male switch at the other, for heavy-duty vehicles.",
     },
     {
       title: "Jumper Cable (50mm2)",
-      img: "/images/lights10.PNG",
+      img: "/images/lights10.png",
       desc: "A jumper cable size 50mm2 with clamps at one end and male switch at the other, used for heavy duty vehicles.",
     },
     {
       title: "Jumper Socket",
-      img: "/images/lights12.PNG",
+      img: "/images/lights12.png",
       desc: "A jumper lead socket attached to the vehicle’s battery, used to jump start the vehicle.",
     },
     {
       title: "Inspection Lamp",
-      img: "/images/lights14.PNG",
+      img: "/images/lights14.png",
       desc: "A long wired lamp with battery clamps at each end. Can be directly connected to a battery for working in dark.",
     },
   ];
