@@ -50,7 +50,7 @@ function Home() {
 
             {/* Logo Carousel */}
             <div className="logo-carousel-section">
-                <p className="carousel-text">Join 4,000+ companies already growing</p>
+                <p className="carousel-text">Join 500+ companies already growing</p>
                 <div className="logo-carousel">
                     <div className="logo-track">
                         {/* First set */}
