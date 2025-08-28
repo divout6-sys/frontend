@@ -1,4 +1,8 @@
 /* Hero Section */
+body {
+    background-color: #f0f0f0 /* 👈 dim black/grey feel */
+    
+}
 .hero-section {
     animation: fadeIn 1.5s ease-in-out;
 }
