@@ -1,4 +1,5 @@
 import './Contact.css';
+import { FaWhatsapp } from "react-icons/fa";   // ✅ Add this import
 
 function Contact() {
     return (
@@ -10,7 +11,6 @@ function Contact() {
                     Check out the resources below and reach out directly if you have any questions.
                 </p>
 
-                {/* ✅ Buttons inside this div */}
                 <div className="contact-buttons">
                     <button className="btn primary-btn">Call Us</button>
                     <button className="btn secondary-btn">Email Us</button>
@@ -26,17 +26,27 @@ function Contact() {
                     <button type="submit">Submit</button>
                 </form>
 
-                {/* ✅ Footer section with underline and contact details */}
                 <div className="contact-footer">
                     <hr />
                     <div className="contact-details">
                         <div className="left-column">
-                            <p>hello@email.com</p>
-                            <p>+92 300 1234567</p>
+                            <p> triangleautos@hotmail.com</p>
+
+                            {/* ✅ Number replaced with WhatsApp icon */}
+                            <a 
+                                href="https://wa.me/923001234567" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className="whatsapp-link"
+                            >
+                                <FaWhatsapp className="whatsapp-icon" />
+                            </a>
                         </div>
                         <div className="right-column">
-                            <p>Pakistan</p>
-                            <p>123 Street Name, Karachi</p>
+                            <p>Karachi,Pakistan</p>
+                            <p> Plot# B - 292 & 293, Block - 1, <br />
+                                Metroville - 1, S.I.T.E.area, <br />
+                                Pakistan, Karachi.</p>
                         </div>
                     </div>
                 </div>
