@@ -30,9 +30,9 @@ const Footer = () => {
         <div className="footer-right">
           <h3>Quick Links</h3>
           <ul className="footer-pages">
-            <li><a href="#">Our Clients</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="https://www.triangle-autos.com/clients">Our Clients</a></li>
+            <li><a href="https://www.triangle-autos.com/products">Products</a></li>
+            <li><a href="https://www.triangle-autos.com/contact">Contact</a></li>
           </ul>
         </div>
 
