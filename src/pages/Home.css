@@ -1,5 +1,34 @@
-/* Global Button Style */
+/* Hero Section */
+.hero-section {
+    animation: fadeIn 1.5s ease-in-out;
+}
 
+.hero-title {
+    font-size: 2.8rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.hero-btn {
+    padding: 14px 32px;
+    background: linear-gradient(135deg, #000000, #848685);
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero-btn:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+/* Global Button Style */
 button {
     padding: 12px 24px;
     background-color: #070707;
@@ -8,162 +37,77 @@ button {
     cursor: pointer;
     font-weight: bold;
     font-size: 1rem;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
+    border-radius: 8px;
+    transition: all 0.3s ease;
 }
 
 button:hover {
-    background-color: #5c5959;
+    background-color: #333;
+    transform: translateY(-2px);
 }
 
-
-/* Outer white container that wraps the two cards */
-
+/* Big Box for Cards */
 .big-box-container {
-    background-color: white;
-    padding: 50px;
-    margin: 50px auto;
-    border-radius: 15px;
-    max-width: 1000px;
+    background-color: #f9f9f9;
+    padding: 60px;
+    margin: 60px auto;
+    border-radius: 20px;
+    max-width: 1100px;
     display: flex;
     gap: 40px;
     justify-content: center;
     flex-wrap: wrap;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
 }
 
-
-/* Dashboard Cards Container */
-
-.dashboard-container {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    padding: 50px 20px;
-    background-color: #f8f8f8;
-    flex-wrap: wrap;
-}
-
-
-/* Individual Card Style */
-
+/* Individual Card */
 .dashboard-card {
     background: white;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    padding: 30px;
-    width: 350px;
-    min-height: 420px;
+    border-radius: 15px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+    padding: 25px;
+    width: 320px;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    opacity: 0;
-    /* Hidden before animation */
+    transition: all 0.3s ease;
 }
 
-
-/* Card Image */
+.dashboard-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+}
 
 .card-image {
-    width: 250px;
-    height: 250px;
+    width: 220px;
+    height: 220px;
     margin: 0 auto 20px;
     object-fit: contain;
 }
 
-
-/* Optional button inside card */
-
 .card-button {
     margin-top: 20px;
+    background: #000000, #848685;
+    border-radius: 6px;
 }
 
-
-/* === Animation Keyframes === */
-
-@keyframes slideFromLeft {
-    from {
-        transform: translateX(-80px);
-        opacity: 0;
-    }
-    to {
-        transform: translateX(0);
-        opacity: 1;
-    }
+.card-button:hover {
+    background: #5f6061;
 }
 
-@keyframes slideFromRight {
-    from {
-        transform: translateX(80px);
-        opacity: 0;
-    }
-    to {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-
-
-/* Odd cards come from left */
-
-.dashboard-card:nth-child(odd) {
-    animation: slideFromLeft 1.2s cubic-bezier(0.25, 1, 0.5, 1) forwards;
-}
-
-
-/* Even cards come from right */
-
-.dashboard-card:nth-child(even) {
-    animation: slideFromRight 1.2s cubic-bezier(0.25, 1, 0.5, 1) forwards;
-}
-
-
-/* Stagger animation delays */
-
-.dashboard-card:nth-child(1) {
-    animation-delay: 0.2s;
-}
-
-.dashboard-card:nth-child(2) {
-    animation-delay: 0.4s;
-}
-
-.dashboard-card:nth-child(3) {
-    animation-delay: 0.6s;
-}
-
-.dashboard-card:nth-child(4) {
-    animation-delay: 0.8s;
-}
-
-.dashboard-card:nth-child(5) {
-    animation-delay: 1s;
-}
-
-
-/* Hover effect */
-
-.dashboard-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-    transition: transform 0.5s ease, box-shadow 0.5s ease;
-}
-
-
-/* Logo Carousel Section */
-
+/* Logo Carousel */
 .logo-carousel-section {
-    background: white;
-    padding: 40px 0;
+    background: #f5f7fa;
+    padding: 50px 0;
     text-align: center;
 }
 
 .carousel-text {
-    font-size: 1.2rem;
-    font-weight: 500;
-    margin-bottom: 30px;
-    color: #333;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 35px;
+    color: #222;
 }
 
 .logo-carousel {
@@ -174,102 +118,29 @@ button:hover {
 
 .logo-track {
     display: flex;
-    width: calc(200px * 10);
-    animation: scroll 20s linear infinite;
+    width: calc(200px * 12);
+    animation: scroll 25s linear infinite;
 }
 
 .logo-track img {
-    height: 40px;
+    height: 50px;
     width: 200px;
     object-fit: contain;
-    padding: 0 20px;
-    transition: filter 0.3s ease;
+    padding: 0 25px;
+   
+    opacity: 0.8;
+    transition: all 0.3s ease;
+}
+
+
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
 }
 
 @keyframes scroll {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(-50%);
-    }
-}
-
-
-/* Footer */
-
-.footer {
-    background-color: white;
-    padding: 40px 20px;
-    color: #333;
-    border-top: 1px solid #ddd;
-}
-
-.footer-container {
-    max-width: 1200px;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 30px;
-}
-
-.footer-left,
-.footer-right {
-    flex: 1;
-    min-width: 300px;
-}
-
-.footer-logo {
-    max-width: 150px;
-    margin-bottom: 15px;
-}
-
-.footer-text {
-    margin-bottom: 20px;
-    line-height: 1.6;
-}
-
-.discover-btn {
-    display: inline-block;
-    background-color: #0066ff;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 4px;
-}
-
-.footer-right h3 {
-    margin-bottom: 10px;
-    color: #111;
-}
-
-.footer-right a {
-    color: #0066ff;
-    text-decoration: none;
-}
-
-.footer-right ul {
-    list-style: none;
-    padding: 0;
-    margin-top: 10px;
-}
-
-.footer-right li {
-    margin-bottom: 5px;
-}
-
-.footer-right li a:hover {
-    text-decoration: underline;
-}
-
-
-/* Responsive */
-
-@media (max-width: 768px) {
-    .footer-container {
-        flex-direction: column;
-        text-align: center;
-    }
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
 }

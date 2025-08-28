@@ -3,29 +3,33 @@ import './Home.css';
 function Home() {
     const heroStyle = {
         height: '100vh',
-        backgroundImage: `url(${process.env.PUBLIC_URL + '/background.jpg'})`,
+        backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url(${process.env.PUBLIC_URL + '/background.jpg'})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         display: 'flex',
         alignItems: 'center',
+        justifyContent: 'center',
+        textAlign: 'center',
         padding: '0 50px',
-        color: 'white'
+        color: 'white',
     };
 
     return (
         <>
             {/* Hero Section */}
-            <div style={heroStyle}>
+            <div style={heroStyle} className="hero-section">
                 <div>
-                    <h1>PRECISION ENGINEERING FOR THE ROAD AND THE FIELD</h1>
-                    <button>EXPLORE PRODUCTS</button>
+                    <h1 className="hero-title">
+                        PRECISION ENGINEERING FOR THE ROAD AND THE FIELD
+                    </h1>
+                    <button className="hero-btn">EXPLORE PRODUCTS</button>
                 </div>
             </div>
 
             {/* Product Cards */}
             <div className="big-box-container">
                 <div className="dashboard-card">
-                    <img src="/images/lights.jpg" alt="icon1" className="card-image" />
+                    <img src="/images/lights.jpg" alt="Rear Blackout Lights" className="card-image" />
                     <h3>Rear Blackout Lights </h3>
                     <p>
                         Rear marker lights or blackout taillights are typically housed in the same unit
@@ -36,7 +40,7 @@ function Home() {
                 </div>
 
                 <div className="dashboard-card">
-                    <img src="/images/lights2.jpg" alt="icon2" className="card-image" />
+                    <img src="/images/lights2.jpg" alt="Convoy Lamp" className="card-image" />
                     <h3>Convoy Lamp</h3>
                     <p>
                         Convoy Lamps are mounted on the driver's side of the vehicle, typically on
@@ -50,17 +54,16 @@ function Home() {
 
             {/* Logo Carousel */}
             <div className="logo-carousel-section">
-                <p className="carousel-text">Join 500+ companies already growing</p>
+                <p className="carousel-text">Join 4,000+ companies already growing</p>
                 <div className="logo-carousel">
                     <div className="logo-track">
-                        {/* First set */}
                         <img src="/images/Toyota.png" alt="Toyota" />
                         <img src="/images/Orient.png" alt="Orient" />
                         <img src="/images/Nissan.png" alt="Nissan" />
                         <img src="/images/New Holland.png" alt="New Holland" />
                         <img src="/images/Mercedes.png" alt="Mercedes" />
                         <img src="/images/Ghandara.png" alt="Ghandara" />
-                        {/* Second set */}
+
                         <img src="/images/Master.png" alt="Master" />
                         <img src="/images/Man.png" alt="Man" />
                         <img src="/images/Isuzu.png" alt="Isuzu" />
