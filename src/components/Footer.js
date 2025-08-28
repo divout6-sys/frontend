@@ -5,6 +5,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-container">
+        
         {/* Left side */}
         <div className="footer-left">
           <img
@@ -27,6 +28,7 @@ const Footer = () => {
 
         {/* Right side */}
         <div className="footer-right">
+          <h3>Quick Links</h3>
           <ul className="footer-pages">
             <li><a href="#">Our Clients</a></li>
             <li><a href="#">Products</a></li>
@@ -43,17 +45,16 @@ const Footer = () => {
             Pakistan, Karachi.
           </p>
           <p>
-            📧 <a href="mailto:mansoor.triangle@hotmail.com">mansoor.triangle@hotmail.com</a>
-            <br />
-            📧 <a href="mailto:triangleautos@hotmail.com">triangleautos@hotmail.com</a>
-            <br />
+            📧 <a href="mailto:mansoor.triangle@hotmail.com">mansoor.triangle@hotmail.com</a><br />
+            📧 <a href="mailto:triangleautos@hotmail.com">triangleautos@hotmail.com</a><br />
             📧 <a href="mailto:osman-mansoor@live.com">osman-mansoor@live.com</a>
           </p>
           <p style={{ marginTop: "10px" }}>
-            📞  +92 336 2046379 <br />
-            📞  +92 339 4222922
+            📞 +92 336 2046379 <br />
+            📞 +92 339 4222922
           </p>
         </div>
+
       </div>
 
       {/* Bottom line */}
