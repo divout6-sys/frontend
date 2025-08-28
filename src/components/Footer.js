@@ -29,11 +29,12 @@ const Footer = () => {
         {/* Right side */}
         <div className="footer-right">
           <h3>Quick Links</h3>
-          <ul className="footer-pages">
-            <li><a href="https://www.triangle-autos.com/clients">Our Clients</a></li>
-            <li><a href="https://www.triangle-autos.com/products">Products</a></li>
-            <li><a href="https://www.triangle-autos.com/contact">Contact</a></li>
-          </ul>
+         <ul className="footer-pages">
+              <li><Link to="/clients">Our Clients</Link></li>
+              <li><Link to="/products">Products</Link></li>
+              <li><Link to="/contact">Contact</Link></li>
+</ul>
+
         </div>
 
         {/* Contact Info Section */}
