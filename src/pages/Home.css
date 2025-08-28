@@ -1,54 +1,6 @@
-/* Hero Section */
-.hero-section {
-    animation: fadeIn 1.5s ease-in-out;
-}
-
-.hero-title {
-    font-size: 2.8rem;
-    font-weight: 800;
-    margin-bottom: 20px;
-    line-height: 1.2;
-    text-transform: uppercase;
-}
-
-.hero-btn {
-    padding: 14px 32px;
-    background: linear-gradient(135deg, #000000, #848685);
-    color: #fff;
-    border: none;
-    font-weight: bold;
-    font-size: 1rem;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.hero-btn:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
-}
-
-/* Global Button Style */
-button {
-    padding: 12px 24px;
-    background-color: #070707;
-    color: white;
-    border: none;
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 1rem;
-    border-radius: 8px;
-    transition: all 0.3s ease;
-}
-
-button:hover {
-    background-color: #333;
-    transform: translateY(-2px);
-}
-
 /* Big Box for Cards */
 .big-box-container {
-    background-color: #f9f9f9;
+    background-color: #eeeeee; /* dimmed from pure white */
     padding: 60px;
     margin: 60px auto;
     border-radius: 20px;
@@ -62,7 +14,7 @@ button:hover {
 
 /* Individual Card */
 .dashboard-card {
-    background: white;
+    background: #f9f9f9; /* dimmed from white */
     border-radius: 15px;
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
     padding: 25px;
@@ -79,68 +31,26 @@ button:hover {
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
 }
 
-.card-image {
-    width: 220px;
-    height: 220px;
-    margin: 0 auto 20px;
-    object-fit: contain;
+/* Footer Stick Fix */
+body, html {
+    height: 100%;
+    margin: 0;
 }
 
-.card-button {
-    margin-top: 20px;
-    background: #000000, #848685;
-    border-radius: 6px;
-}
-
-.card-button:hover {
-    background: #5f6061;
-}
-
-/* Logo Carousel */
-.logo-carousel-section {
-    background: #f5f7fa;
-    padding: 50px 0;
-    text-align: center;
-}
-
-.carousel-text {
-    font-size: 1.3rem;
-    font-weight: 600;
-    margin-bottom: 35px;
-    color: #222;
-}
-
-.logo-carousel {
-    overflow: hidden;
-    width: 100%;
-    position: relative;
-}
-
-.logo-track {
+#root { /* React root div */
     display: flex;
-    width: calc(200px * 12);
-    animation: scroll 25s linear infinite;
+    flex-direction: column;
+    min-height: 100%;
 }
 
-.logo-track img {
-    height: 50px;
-    width: 200px;
-    object-fit: contain;
-    padding: 0 25px;
-   
-    opacity: 0.8;
-    transition: all 0.3s ease;
+main {
+    flex: 1; /* page content will push footer to bottom */
 }
 
-
-
-/* Animations */
-@keyframes fadeIn {
-    from { opacity: 0; transform: translateY(30px); }
-    to { opacity: 1; transform: translateY(0); }
-}
-
-@keyframes scroll {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-50%); }
+footer {
+    background: #111;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto; /* force footer at bottom */
 }
