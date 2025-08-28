@@ -29,7 +29,19 @@ function Contact() {
                 <div className="contact-footer">
                     <hr />
                     <div className="contact-details">
-                        
+                        <div className="left-column">
+                            <p> triangleautos@hotmail.com</p>
+
+                            {/* ✅ Number replaced with WhatsApp icon */}
+                            <a 
+                                href="https://wa.me/923001234567" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className="whatsapp-link"
+                            >
+                                <FaWhatsapp className="whatsapp-icon" />
+                            </a>
+                        </div>
                         <div className="right-column">
                             <p>Karachi,Pakistan</p>
                             <p> Plot# B - 292 & 293, Block - 1, <br />

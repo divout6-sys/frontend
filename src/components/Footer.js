@@ -48,7 +48,7 @@ const Footer = () => {
           <p>
             📧 <a href="mailto:mansoor.triangle@hotmail.com">mansoor.triangle@hotmail.com</a><br />
             📧 <a href="mailto:triangleautos@hotmail.com">triangleautos@hotmail.com</a><br />
-            📧 <a href="mailto:osman-mansoor@live.com">osman-mansoor@live.com</a>
+           
           </p>
           <p style={{ marginTop: "10px" }}>
             📞 +92 336 2046379 <br />
