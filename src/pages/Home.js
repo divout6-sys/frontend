@@ -39,7 +39,9 @@ function Home() {
                         as the vehicle's taillights, and are the main tool in keeping the proper following
                         distance in nighttime convoy driving.
                     </p>
-                    <button className="card-button">Import Now</button>
+                    <Link to="/products">
+                     <button className="card-button">View More</button>
+                     </Link>
                 </div>
 
                 <div className="dashboard-card">
@@ -51,7 +53,9 @@ function Home() {
                         of regular headlights when driving under blackout conditions. It is intended
                         to give off just enough light for the driver to make their way.
                     </p>
-                    <button className="card-button">View Report</button>
+                    <Link to="/products">
+                    <button className="card-button">View More</button>
+                     </Link>
                 </div>
             </div>
 
