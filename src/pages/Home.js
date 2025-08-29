@@ -1,4 +1,5 @@
 import './Home.css';
+import { Link } from "react-router-dom";
 
 function Home() {
     const heroStyle = {
@@ -22,7 +23,9 @@ function Home() {
                     <h1 className="hero-title">
                         PRECISION ENGINEERING FOR THE ROAD AND THE FIELD
                     </h1>
-                    <button className="hero-btn">EXPLORE PRODUCTS</button>
+                    <Link to="/products">
+                     <button className="hero-btn">EXPLORE PRODUCTS</button>
+                    </Link>
                 </div>
             </div>
 
