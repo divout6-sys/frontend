@@ -71,15 +71,6 @@ const Footer = () => {
             >
               <FaWhatsapp size={24} /> 0336 2046379
             </a>
-            <br />
-            <a
-              href="https://wa.me/03394222922"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="whatsapp-link"
-            >
-              <FaWhatsapp size={24} /> 0339 4222922
-            </a>
           </div>
         </div>
       </div>
