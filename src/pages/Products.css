@@ -36,7 +36,7 @@
 .product-description {
     transform: translateX(100px);
     flex: 1;
-     font-size: 1.2rem;       /* 👈 Bada font */
+     font-size: 1.8rem;       /* 👈 Bada font */
     line-height: 1.8;  
 }
 
