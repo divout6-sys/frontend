@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;700&display=swap');
+
 .product-container {
     margin: 100px auto 40px;
     /* Added top margin for navbar spacing */
@@ -36,8 +38,10 @@
 .product-description {
     transform: translateX(100px);
     flex: 1;
-     font-size: 1.8rem;       /* 👈 Bada font */
+    font-size: 1.8rem;       /* 👈 Bada font */
     line-height: 1.8;  
+    font-family: 'Poppins', sans-serif;  /* 👈 Font changed */
+    font-weight: 200 !important;
 }
 
 
