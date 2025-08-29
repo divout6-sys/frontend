@@ -24,7 +24,7 @@ const Footer = () => {
             </b>
           </p>
           <Link to="/about" className="discover-btn">
-           DISCOVER MORE
+            DISCOVER MORE
           </Link>
         </div>
 
@@ -56,14 +56,23 @@ const Footer = () => {
             Metroville - 1, S.I.T.E.area, <br />
             Pakistan, Karachi.
           </p>
+
+          {/* Email */}
           <p>
-            📧 <a href="mailto:triangleautos@hotmail.com">triangleautos@hotmail.com</a>
+            📧{" "}
+            <a 
+              href="mailto:triangleautos@hotmail.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              triangleautos@hotmail.com
+            </a>
           </p>
 
-          {/* WhatsApp Icons Instead of Numbers */}
+          {/* WhatsApp Icon with number */}
           <div className="whatsapp-icons" style={{ marginTop: "12px" }}>
             <a
-              href="https://wa.me/+923362046379"
+              href="https://wa.me/923362046379"
               target="_blank"
               rel="noopener noreferrer"
               className="whatsapp-link"
