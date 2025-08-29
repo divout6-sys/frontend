@@ -64,12 +64,12 @@ const Footer = () => {
           {/* WhatsApp Icons Instead of Numbers */}
           <div className="whatsapp-icons" style={{ marginTop: "12px" }}>
             <a
-              href="https://wa.me/03362046379"
+              href="https://wa.me/+923362046379"
               target="_blank"
               rel="noopener noreferrer"
               className="whatsapp-link"
             >
-              <FaWhatsapp size={24} /> 0336 2046379
+              <FaWhatsapp size={24} /> +92 336 2046379
             </a>
           </div>
         </div>
