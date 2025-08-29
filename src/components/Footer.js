@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import { Link } from "react-router-dom";
+import { FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -22,20 +23,29 @@ const Footer = () => {
               products and services via various platforms.
             </b>
           </p>
-          <a href="#" className="discover-btn">
-            DISCOVER MORE
-          </a>
+          <Link to="/about" className="discover-btn">
+           DISCOVER MORE
+          </Link>
         </div>
 
         {/* Right side */}
         <div className="footer-right">
           <h3>Quick Links</h3>
-         <ul className="footer-pages">
-              <li><Link to="/clients">Our Clients</Link></li>
-              <li><Link to="/products">Products</Link></li>
-              <li><Link to="/contact">Contact</Link></li>
-</ul>
+          <ul className="footer-pages">
+            <li><Link to="/clients">Our Clients</Link></li>
+            <li><Link to="/products">Products</Link></li>
+            <li><Link to="/contact">Contact</Link></li>
+          </ul>
 
+          {/* QR Code under Quick Links */}
+          <div className="footer-qr">
+            <h4>Find Us on Google Maps</h4>
+            <img 
+              src="/images/qr-code-gps.png" 
+              alt="Google Map QR Code" 
+              className="qr-code"
+            />
+          </div>
         </div>
 
         {/* Contact Info Section */}
@@ -48,15 +58,30 @@ const Footer = () => {
           </p>
           <p>
             📧 <a href="mailto:mansoor.triangle@hotmail.com">mansoor.triangle@hotmail.com</a><br />
-            📧 <a href="mailto:triangleautos@hotmail.com">triangleautos@hotmail.com</a><br />
-           
+            📧 <a href="mailto:triangleautos@hotmail.com">triangleautos@hotmail.com</a>
           </p>
-          <p style={{ marginTop: "10px" }}>
-            📞 +92 336 2046379 <br />
-            📞 +92 339 4222922
-          </p>
-        </div>
 
+          {/* WhatsApp Icons Instead of Numbers */}
+          <div className="whatsapp-icons" style={{ marginTop: "12px" }}>
+            <a
+              href="https://wa.me/03362046379"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="whatsapp-link"
+            >
+              <FaWhatsapp size={24} /> 0336 2046379
+            </a>
+            <br />
+            <a
+              href="https://wa.me/03394222922"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="whatsapp-link"
+            >
+              <FaWhatsapp size={24} /> 0339 4222922
+            </a>
+          </div>
+        </div>
       </div>
 
       {/* Bottom line */}

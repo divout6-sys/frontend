@@ -96,37 +96,63 @@ footer.footer a[href^="mailto:"]:hover {
 .footer-pages {
   list-style: none;
   padding: 0;
-  margin: 10px;
+  margin: 8px 0; /* kam margin */
 }
+
 .footer-pages li {
-  margin-bottom: 18px;
-  margin: 12px 0;
+  margin: 6px 0; /* gap kam kar diya */
 }
+
 .footer-pages li:last-child {
   margin-bottom: 0;
 }
+
 .footer-pages li a {
   color: #ffffff;
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   font-weight: 600;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.3px;
   transition: all 0.3s ease;
-  display: inline-block;  /* helps spacing look cleaner */
-  padding: 6px 12px;      /* add breathing room */
+  display: inline-block;
+  padding: 4px 8px; /* kam breathing room */
 }
+
 .footer-pages li a:hover {
   color: #1e90ff;
   text-decoration: underline;
   transform: translateX(4px);
 }
+/* Bottom line */ .footer-bottom { text-align: center; padding-top: 15px; border-top:
+   1px solid #444; /* subtle dark border */ font-size: 14px; color: #bbb; }
+/* QR Code Section */
+.footer-qr {
+  text-align: left;      /* same alignment as pages */
+  margin-top: 20px;      /* thoda gap above QR */
+}
 
-/* Bottom line */
-.footer-bottom {
-  text-align: center;
-  padding-top: 15px;
-  border-top: 1px solid #444; /* subtle dark border */
-  font-size: 14px;
-  color: #bbb;
+.footer-qr h4 {
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.qr-code {
+  width: 120px;  /* thoda chota */
+  height: 120px;
+}
+.whatsapp-link {
+  color: #25d366;   /* WhatsApp green */
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px; /* icon aur text ke beech spacing */
+}
+
+.whatsapp-link:hover {
+  text-decoration: underline;
+  color: #1ebe57;
+  transform: scale(1.05);
+  transition: 0.3s;
 }
 
 /* Mobile tweak */
