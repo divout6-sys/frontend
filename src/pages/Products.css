@@ -15,7 +15,7 @@
 
 .product-content {
     display: flex;
-    align-items: center;
+    align-items: top;
     gap: 20px;
 }
 
