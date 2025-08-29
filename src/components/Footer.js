@@ -61,7 +61,7 @@ const Footer = () => {
           <p>
             📧{" "}
             <a 
-              href="mailto:triangleautos@hotmail.com" 
+               href="https://outlook.live.com/owa/?path=/mail/action/compose&to=triangleautos@hotmail.com"
               target="_blank" 
               rel="noopener noreferrer"
             >
