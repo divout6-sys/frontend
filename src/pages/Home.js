@@ -33,11 +33,11 @@ function Home() {
             <div className="big-box-container">
                 <div className="dashboard-card">
                     <img src="/images/lights.jpg" alt="Rear Blackout Lights" className="card-image" />
-                    <h3>Rear Blackout Lights </h3>
+                    <h3> BLACKOUT LIGHTS & ESSENTIAL Add-ONS </h3>
                     <p>
-                        Rear marker lights or blackout taillights are typically housed in the same unit
+                        {/* Rear marker lights or blackout taillights are typically housed in the same unit
                         as the vehicle's taillights, and are the main tool in keeping the proper following
-                        distance in nighttime convoy driving.
+                        distance in nighttime convoy driving. */}
                     </p>
                     <Link to="/products">
                      <button className="card-button">View More</button>
@@ -46,7 +46,7 @@ function Home() {
 
                 <div className="dashboard-card">
                     <img src="/images/lights2.jpg" alt="Convoy Lamp" className="card-image" />
-                    <h3>Convoy Lamp</h3>
+                    <h3>CABLES & CONNECTORS</h3>
                     <p>
                         Convoy Lamps are mounted on the driver's side of the vehicle, typically on
                         the fender. They give off a diffused beam of white light that takes the place
