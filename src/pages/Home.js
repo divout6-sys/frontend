@@ -47,12 +47,7 @@ function Home() {
                 <div className="dashboard-card">
                     <img src="/images/lights2.jpg" alt="Convoy Lamp" className="card-image" />
                     <h3>CABLES & CONNECTORS</h3>
-                    <p>
-                        Convoy Lamps are mounted on the driver's side of the vehicle, typically on
-                        the fender. They give off a diffused beam of white light that takes the place
-                        of regular headlights when driving under blackout conditions. It is intended
-                        to give off just enough light for the driver to make their way.
-                    </p>
+                   
                     <Link to="/products">
                     <button className="card-button">View More</button>
                      </Link>
