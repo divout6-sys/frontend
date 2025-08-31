@@ -78,7 +78,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="whatsapp-link"
             >
-              <FaWhatsapp size={24} /> 0336 2046379
+              <FaWhatsapp size={24} /> +92 336 2046379
             </a>
             <br />
             <a
@@ -87,7 +87,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="whatsapp-link"
             >
-              <FaWhatsapp size={24} /> 0339 4222922
+              <FaWhatsapp size={24} /> +92 339 4222922
             </a>
           </div>
         </div>
