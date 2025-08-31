@@ -27,7 +27,7 @@ function About() {
       {/* Hero Section */}
       <section className="about-hero scroll-animate card">
         <h1>
-          This is <span className="highlight">TRIANGLE AUTOMOBILE & ENGINEERING COMPANY</span>
+          <span className="highlight">TRIANGLE AUTOMOBILE & ENGINEERING COMPANY</span>
         </h1>
         <p>
           Since 1994
