@@ -61,7 +61,7 @@
     color: #222;
     margin: 40px 0 15px;
     position: relative;
-    text-align: left;   /* 👈 center se left */
+    text-align: center;   
 }
 
 .about-container h2::after {
@@ -70,7 +70,7 @@
     width: 60px;
     height: 3px;
     background: #007BFF;
-    margin: 10px 0 0;   /* 👈 left aligned */
+    margin: 10px auto 0;  
     border-radius: 2px;
 }
 
@@ -103,7 +103,7 @@
     content: "›";   /* 👈 dot ki jagah ">" symbol */
     position: absolute;
     left: 0;
-    color: #ff5722;   /* 👈 orange highlight */
+    color: #000000;   /* 👈 black highlight */
     font-weight: bold;
     font-size: 1.1rem;
 }
