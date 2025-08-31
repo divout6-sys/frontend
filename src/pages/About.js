@@ -43,7 +43,7 @@ function About() {
       <section className="about-section scroll-animate card">
         <h2>Company Overview</h2>
         <p>
-          Triangle Automobile & Engineering Company, established in 1994, is a
+          <strong>Triangle Automobile & Engineering Company</strong>(TAEC), established in 1994, is a
           leading manufacturer of sheet metal components, cables & wires, and
           plastic components, primarily catering to the automotive industry.
           With over 28 years of expertise, TAEC has earned a reputation as a
@@ -60,7 +60,7 @@ function About() {
         </p>
 
         <p>
-          Triangle Automobile & Engineering Company (TAEC) specializes in the
+          TAEC specializes in the
           manufacturing of:
         </p>
         <ul>
