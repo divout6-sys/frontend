@@ -23,16 +23,8 @@
 
 .about-hero h1 {
     font-family: 'Poppins', sans-serif;
-<<<<<<< HEAD
     font-size: 2rem;
-<<<<<<< HEAD
-    font-weight: 580;
-=======
-=======
-    font-size: 3rem;
->>>>>>> c3d8a26 (resolved conflicts)
     font-weight: 700;
->>>>>>> 4164bb1 (about us)
     letter-spacing: 1.5px;
     text-transform: uppercase;
     background: linear-gradient(90deg, #0c0c0c, #000000);
@@ -48,6 +40,16 @@
 .about-hero .highlight {
     color: #ff5722;
 }
+/* Since 1994 styling */
+.about-hero .since {
+    margin-top: -8px;   /* Heading ke aur kareeb */
+    margin-bottom: 5px; /* neeche thoda gap */
+    font-size: 1rem;
+    font-weight: 500;
+    color: #555;
+    letter-spacing: 1px;
+    font-style: italic; /* thoda classy look */
+}
 
 .about-hero .welcome {
     color: gray;
@@ -55,9 +57,8 @@
 
 .about-hero p {
     max-width: 600px;
-    margin: 7   px auto;
+    margin: 10px auto;
     font-size: 1.1rem;
-    font-weight: 50;
     color: #555;
 }
 
