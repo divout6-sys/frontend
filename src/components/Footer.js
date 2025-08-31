@@ -56,7 +56,7 @@ const Footer = () => {
           <h3>Contact Info</h3>
           <p>
             Plot# B - 292 & 293, Block - 1, <br />
-            Metroville - 1, S.I.T.E.area, <br />
+            Metroville - 1, S.I.T.E, <br />
             Pakistan, Karachi.
           </p>
           <p>
