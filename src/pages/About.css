@@ -47,8 +47,9 @@
 
 .about-hero p {
     max-width: 600px;
-    margin: 7px auto;
+    margin: 7   px auto;
     font-size: 1.1rem;
+    font-weight: 50;
     color: #555;
 }
 
