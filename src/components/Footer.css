@@ -41,7 +41,7 @@ footer.footer a[href^="mailto:"]:hover {
 
 /* Logo */
 .footer-logo {
-  width: 220px;
+  width: 320px;
   height: auto;
   margin-bottom: 15px;
 }
@@ -62,6 +62,7 @@ footer.footer a[href^="mailto:"]:hover {
   color: #ffffff;
   margin-bottom: 15px;
   line-height: 1.5;
+  font-style: italic;
 }
 
 /* Button */

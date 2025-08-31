@@ -17,10 +17,7 @@ const Footer = () => {
           />
           <p className="footer-text">
             <b>
-              Our objective is to assist businesses, including Triangle
-              Automobile & Engineering Company, a car lights company, in
-              increasing their online presence and revenue by advertising their
-              products and services via various platforms.
+            “Built on engineering. Driven by innovation. Trusted for quality.”
             </b>
           </p>
           <Link to="/about" className="discover-btn">
@@ -40,11 +37,17 @@ const Footer = () => {
           {/* QR Code under Quick Links */}
           <div className="footer-qr">
             <h4>Find Us on Google Maps</h4>
-            <img 
-              src="/images/qr-code-gps.png" 
-              alt="Google Map QR Code" 
-              className="qr-code"
-            />
+            <a
+              href="https://www.google.com/maps?q=24.93075,66.99791"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img 
+                src="/images/qr-code-gps.png" 
+                alt="Google Map QR Code" 
+                className="qr-code"
+              />
+            </a>
           </div>
         </div>
 
@@ -56,20 +59,18 @@ const Footer = () => {
             Metroville - 1, S.I.T.E.area, <br />
             Pakistan, Karachi.
           </p>
-
-          {/* Email */}
           <p>
             📧{" "}
-            <a 
-               href="https://outlook.live.com/owa/?path=/mail/action/compose&to=triangleautos@hotmail.com"
-              target="_blank" 
+            <a
+              href="https://outlook.live.com/owa/?path=/mail/action/compose&to=triangleautos@hotmail.com"
+              target="_blank"
               rel="noopener noreferrer"
             >
               triangleautos@hotmail.com
             </a>
           </p>
 
-          {/* WhatsApp Icon with number */}
+          {/* WhatsApp Icons Instead of Numbers */}
           <div className="whatsapp-icons" style={{ marginTop: "12px" }}>
             <a
               href="https://wa.me/923362046379"
@@ -77,7 +78,16 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="whatsapp-link"
             >
-              <FaWhatsapp size={24} /> +92 336 2046379
+              <FaWhatsapp size={24} /> 0336 2046379
+            </a>
+            <br />
+            <a
+              href="https://wa.me/923394222922"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="whatsapp-link"
+            >
+              <FaWhatsapp size={24} /> 0339 4222922
             </a>
           </div>
         </div>
