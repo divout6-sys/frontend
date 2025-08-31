@@ -27,10 +27,12 @@ function About() {
       {/* Hero Section */}
       <section className="about-hero scroll-animate card">
         <h1>
-           <span className="highlight">TRIANGLE AUTOMOBILE & ENGINEERING COMPANY</span>
+          This is <span className="highlight">Triangle Automobile</span>
         </h1>
         <p>
-          Since 1994
+          Gain clarity and harness the power of your data with Triangle
+          Automobile & Engineering Company. Our intuitive dashboard provides
+          real-time analytics.
         </p>
       </section>
 
@@ -43,7 +45,7 @@ function About() {
       <section className="about-section scroll-animate card">
         <h2>Company Overview</h2>
         <p>
-          <strong>Triangle Automobile & Engineering Company</strong> (TAEC), established in 1994, is a
+          Triangle Automobile & Engineering Company, established in 1994, is a
           leading manufacturer of sheet metal components, cables & wires, and
           plastic components, primarily catering to the automotive industry.
           With over 28 years of expertise, TAEC has earned a reputation as a
@@ -60,7 +62,7 @@ function About() {
         </p>
 
         <p>
-           TAEC specializes in the
+          Triangle Automobile & Engineering Company (TAEC) specializes in the
           manufacturing of:
         </p>
         <ul>
@@ -75,7 +77,7 @@ function About() {
           <li>Sheet Metal</li>
           <li>Forging</li>
         </ul>
-
+       
       </section>
 
       {/* Our Commitment */}
@@ -101,7 +103,6 @@ function About() {
             in every product and service we deliver.
           </li>
         </ul>
-
       </section>
     </div>
   );
