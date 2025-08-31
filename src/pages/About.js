@@ -81,7 +81,6 @@ function About() {
       {/* Our Commitment */}
       <section className="about-section scroll-animate card">
         <h2>Our Commitment to Excellence</h2>
-        <h3>Guiding Principles</h3>
         <ul>
           <li>
             <strong>Customer-Centric Approach:</strong> We prioritize
