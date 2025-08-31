@@ -27,11 +27,15 @@ function About() {
       {/* Hero Section */}
       <section className="about-hero scroll-animate card">
         <h1>
+<<<<<<< HEAD
           <span className="highlight">TRIANGLE AUTOMOBILE & ENGINEERING COMPANY</span>
+=======
+          <span className="highlight">
+            TRIANGLE AUTOMOBILE & ENGINEERING COMPANY
+          </span>
+>>>>>>> 4164bb1 (about us)
         </h1>
-        <p>
-          Since 1994
-        </p>
+        <p className="since">Since 1994</p>
       </section>
 
       {/* Image Section */}
@@ -68,19 +72,25 @@ function About() {
           <li>Rubber Parts</li>
           <li>Plastic & ABS Parts</li>
         </ul>
-        <p>TAEC has a comprehensive manufacturing setup covering the following areas:</p>
+        <p>
+          TAEC has a comprehensive manufacturing setup covering the following
+          areas:
+        </p>
         <ul>
           <li>Machining</li>
           <li>Fabrication</li>
           <li>Sheet Metal</li>
           <li>Forging</li>
         </ul>
-       
       </section>
 
       {/* Our Commitment */}
       <section className="about-section scroll-animate card">
         <h2>Our Commitment to Excellence</h2>
+<<<<<<< HEAD
+=======
+       
+>>>>>>> 4164bb1 (about us)
         <ul>
           <li>
             <strong>Customer-Centric Approach:</strong> We prioritize
