@@ -27,10 +27,10 @@ function About() {
       {/* Hero Section */}
       <section className="about-hero scroll-animate card">
         <h1>
-           <span className="highlight">Triangle Automobile</span>
+           <span className="highlight">TRIANGLE AUTOMOBILE & ENGINEERING COMPANY</span>
         </h1>
         <p>
-          since 1994
+          Since 1994
         </p>
       </section>
 
@@ -75,14 +75,7 @@ function About() {
           <li>Sheet Metal</li>
           <li>Forging</li>
         </ul>
-        <p>
-          We operate a well-equipped jobbing industry with a wide range of machines,
-          equipment, and tools that enable the production of both standardized and
-          customized products. Our facility allows us to handle all processes
-          required for the production of customised products. With skilled personnel
-          and advanced machinery, we ensure every product meets strict quality
-          standards.
-        </p>
+
       </section>
 
       {/* Our Commitment */}
@@ -108,19 +101,7 @@ function About() {
             in every product and service we deliver.
           </li>
         </ul>
-      </section>
 
-      {/* Who We Are */}
-      <section className="about-section scroll-animate card">
-        <h2>Who We Are & What We Stand For</h2>
-        <p>
-          We are a trusted leader in manufacturing high-quality automotive and
-          defense components, committed to innovation, excellence, and
-          sustainability. At TAEC, we stand for integrity, customer
-          satisfaction, and a dedication to shaping the future of the
-          engineering and automotive industries through reliable and innovative
-          solutions.
-        </p>
       </section>
     </div>
   );

@@ -9,15 +9,13 @@
     line-height: 1.7;
 }
 
-
 /* Hero Section */
-
 .about-hero {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 60px 20px 20px;
+    padding: 40px 20px 20px; /* thoda upar kar diya */
     text-align: center;
 }
 
@@ -32,7 +30,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: transparent;
-    margin-top: 20px;
+    margin-top: 10px;   /* thoda upar karne ke liye kam kiya */
     margin-bottom: 15px;
     line-height: 1.4;
 }
@@ -43,6 +41,9 @@
 
 .about-hero .welcome {
     color: gray;
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+    margin-top: -10px; /* "Since 1994" ko aur upar shift kiya */
 }
 
 .about-hero p {
@@ -52,15 +53,14 @@
     color: #555;
 }
 
-
 /* Section Headings */
-
 .about-container h2 {
     font-size: 2.2rem;
     font-weight: bold;
     color: #222;
-    margin: 40px 0 15px;
+    margin: 40px auto 15px;  /* center align ke liye auto */
     position: relative;
+    text-align: center; /* center align */
 }
 
 .about-container h2::after {
@@ -73,9 +73,7 @@
     border-radius: 2px;
 }
 
-
 /* Paragraph Styling */
-
 .about-container p {
     font-size: 1rem;
     color: #555;
@@ -83,9 +81,7 @@
     margin-bottom: 25px;
 }
 
-
 /* Guiding Principles List */
-
 .guiding-principles {
     list-style: none;
     padding: 0;
@@ -106,9 +102,7 @@
     color: #007BFF;
 }
 
-
 /* Who We Are Section */
-
 .who-we-are {
     background: #f1f5f9;
     padding: 30px;
@@ -117,9 +111,7 @@
     text-align: justify;
 }
 
-
 /* Card styling for separation */
-
 .card {
     background: #fff;
     border-radius: 12px;
@@ -129,9 +121,7 @@
     max-width: 900px;
 }
 
-
 /* Scroll animation */
-
 .scroll-animate {
     opacity: 0;
     transform: translateY(50px);
@@ -143,9 +133,7 @@
     transform: translateY(0);
 }
 
-
 /* Image styling */
-
 .about-image img {
     max-width: 100%;
     height: auto;
