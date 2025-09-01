@@ -70,7 +70,7 @@ const ProductSection = () => {
       desc: "A spiral cable with a receptacle at one end and 12 pin at the other end, used to connect the trailer with the vehicle.",
     },
     {
-      title: "12 Pin / RECEPTACLE CABLE (STRAIGHT TYPE)",
+      title: "12 PIN / RECEPTACLE CABLE (STRAIGHT TYPE)",
       img: "/images/lights9.png",
       desc: "A straight cable with a receptacle at one end and 12 pin at the other end, used to connect the trailer with the vehicle.",
     },

@@ -25,42 +25,42 @@ const CablesConnectors = () => {
 
   const products = [
     {
-      title: "12 Pin Socket Assembly",
+      title: "12 PIN SOCKET ASSEMBLY",
       img: "/images/lights5.png",
       desc: "Connector between vehicle and trailer, supplying lighting and control.",
     },
     {
-      title: "Jumper Cable (16mm2)",
+      title: "JUMPER CABLE (16mm2)",
       img: "/images/lights6.png",
       desc: "Thick 16mm2 jumper cable with copper clamps, used to head start vehicles.",
     },
     {
-      title: "12 Pin / Receptacle Cable (SPIRAL TYPE)",
+      title: "12 PIN / RECEPTACLE CABLE (SPIRAL TYPE)",
       img: "/images/lights7.png",
       desc: "Spiral cable with 12-pin connector for vehicle-trailer connection.",
     },
     {
-      title: "12 Pin / Receptacle Cable (STRAIGHT TYPE)",
+      title: "12 PIN / RECEPTACLE CABLE (STRAIGHT TYPE)",
       img: "/images/lights9.png",
       desc: "Straight cable with 12-pin connector for direct trailer connection.",
     },
     {
-      title: "Jumper Cable (35mm2)",
+      title: "JUMPER CABLE (35mm2)",
       img: "/images/lights11.png",
       desc: "Heavy-duty 35mm2 jumper cable with clamps and male switch.",
     },
     {
-      title: "Jumper Cable (50mm2)",
+      title: "JUMPER CABLE (50mm2)",
       img: "/images/lights10.png",
       desc: "Extra heavy 50mm2 jumper cable for large vehicles.",
     },
     {
-      title: "Jumper Socket",
+      title: "JUMPER SOCKET",
       img: "/images/lights12.png",
       desc: "Socket installed in vehicle battery to allow external jump start.",
     },
     {
-      title: "Inspection Lamp",
+      title: "INSEPTION LAMP",
       img: "/images/lights14.png",
       desc: "Long wired inspection lamp powered directly from vehicle battery.",
     },

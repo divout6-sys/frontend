@@ -25,32 +25,32 @@ const BlackoutEssential = () => {
 
   const products = [
     {
-      title: "Front Marker Lamp",
+      title: "FRONT MARKER LAMP",
       img: "/images/lights0.png",
       desc: "Front marker lights are mounted below or to the side of headlights to help make vehicles visible to oncoming drivers.",
     },
     {
-      title: "Rear Blackout Lights",
+      title: "REAR BLACKOUT LIGHTS",
       img: "/images/lights.jpg",
       desc: "Rear blackout taillights help maintain proper following distance during night convoy driving.",
     },
     {
-      title: "Convoy Lamp",
+      title: "CONVOY LAMP",
       img: "/images/lights2.jpg",
       desc: "Mounted on the driver’s side fender, convoy lamps emit diffused white light for blackout conditions.",
     },
     {
-      title: "Map Reading Light",
+      title: "MAP READING LIGHT",
       img: "/images/lights3.png",
       desc: "Installed on the passenger side dashboard, used for reading maps with sufficient light.",
     },
     {
-      title: "Blackout Tail Light Assembly",
+      title: "BLACKOUT TAIL LIGHT ASSEMBLY",
       img: "/images/lights8.png",
       desc: "Military-style blackout tail light assembly for heavy-duty and military trucks.",
     },
     {
-      title: "Submachine Gun Holders",
+      title: "SUBMACHINE GUN HOLDERS",
       img: "/images/lights4.png",
       desc: "SMG Rack holds guns securely while the vehicle is moving. Comes with rack top and bottom parts.",
     },
