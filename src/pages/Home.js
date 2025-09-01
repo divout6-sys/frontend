@@ -53,7 +53,7 @@ function Home() {
                     <img src="/images/lights.jpg" alt="Rear Blackout Lights" className="card-image" />
                     <h3> BLACKOUT LIGHTS & ESSENTIAL Add-ONS </h3>
                   
-                    <Link to="http://localhost:3000/blackout-essential">
+                    <Link to="https://www.triangle-autos.com/blackout-essential">
                         <button className="card-button">View More</button>
                     </Link>
                 </div>
@@ -61,7 +61,7 @@ function Home() {
                 <div className="dashboard-card">
                     <img src="/images/lights2.jpg" alt="Convoy Lamp" className="card-image" />
                     <h3>CABLES & CONNECTORS</h3>
-                    <Link to="http://localhost:3000/cables-connectors">
+                    <Link to="https://www.triangle-autos.com/cables-connectors">
                         <button className="card-button">View More</button>
                     </Link>
                 </div>
