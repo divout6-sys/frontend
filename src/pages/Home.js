@@ -1,31 +1,49 @@
-import './Home.css';
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import './Home.css';
 
 function Home() {
-    const heroStyle = {
-        height: '100vh',
-        backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url(${process.env.PUBLIC_URL + '/background.jpg'})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        textAlign: 'center',
-        padding: '0 50px',
-        color: 'white',
-    };
+    const slides = [
+        {
+            image: process.env.PUBLIC_URL + '/background.jpg',
+            title: "PRECISION ENGINEERING FOR THE ROAD AND THE FIELD",
+            button: "EXPLORE PRODUCTS"
+        },
+        {
+            image: process.env.PUBLIC_URL + '/images/background1.jpg',
+            title: "ADVANCED LIGHTING SOLUTIONS FOR EVERY JOURNEY",
+            button: "VIEW PRODUCTS"
+        },
+        {
+            image: process.env.PUBLIC_URL + '/banner3.jpg',
+            title: "QUALITY & DURABILITY YOU CAN TRUST",
+            button: "DISCOVER MORE"
+        }
+    ];
+
+    const [currentIndex, setCurrentIndex] = useState(0);
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setCurrentIndex((prev) => (prev + 1) % slides.length);
+        }, 5000);
+        return () => clearInterval(interval);
+    }, []);
 
     return (
         <>
-            {/* Hero Section */}
-            <div style={heroStyle} className="hero-section">
+            {/* ✅ Hero Banner Carousel */}
+            <div 
+                className="hero-section"
+                style={{
+                    backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url(${slides[currentIndex].image})`
+                }}
+            >
                 <div>
                     <h1 className="hero-title">
-                        PRECISION ENGINEERING FOR THE ROAD AND THE FIELD
+                        {slides[currentIndex].title}
                     </h1>
-                    <Link to="/products">
-                     <button className="hero-btn">EXPLORE PRODUCTS</button>
-                    </Link>
+                    <button className="hero-btn">{slides[currentIndex].button}</button>
                 </div>
             </div>
 
@@ -34,23 +52,18 @@ function Home() {
                 <div className="dashboard-card">
                     <img src="/images/lights.jpg" alt="Rear Blackout Lights" className="card-image" />
                     <h3> BLACKOUT LIGHTS & ESSENTIAL Add-ONS </h3>
-                    <p>
-                        {/* Rear marker lights or blackout taillights are typically housed in the same unit
-                        as the vehicle's taillights, and are the main tool in keeping the proper following
-                        distance in nighttime convoy driving. */}
-                    </p>
+                  
                     <Link to="/products">
-                     <button className="card-button">View More</button>
-                     </Link>
+                        <button className="card-button">View More</button>
+                    </Link>
                 </div>
 
                 <div className="dashboard-card">
                     <img src="/images/lights2.jpg" alt="Convoy Lamp" className="card-image" />
                     <h3>CABLES & CONNECTORS</h3>
-                   
                     <Link to="/products">
-                    <button className="card-button">View More</button>
-                     </Link>
+                        <button className="card-button">View More</button>
+                    </Link>
                 </div>
             </div>
 
@@ -65,7 +78,6 @@ function Home() {
                         <img src="/images/New Holland.png" alt="New Holland" />
                         <img src="/images/Mercedes.png" alt="Mercedes" />
                         <img src="/images/Ghandara.png" alt="Ghandara" />
-
                         <img src="/images/Master.png" alt="Master" />
                         <img src="/images/Man.png" alt="Man" />
                         <img src="/images/Isuzu.png" alt="Isuzu" />

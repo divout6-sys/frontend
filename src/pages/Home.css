@@ -1,10 +1,20 @@
 /* Hero Section */
 body {
-    background-color: #f0f0f0; /* 👈 dim black/grey feel */
-    
+    background-color: #f0f0f0;
 }
+
 .hero-section {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 50px;
+    color: white;
     animation: fadeIn 1.5s ease-in-out;
+    transition: background-image 1.5s ease-in-out;  /* 🔥 Smooth background change */
 }
 
 .hero-title {
@@ -52,7 +62,7 @@ button:hover {
 
 /* Big Box for Cards */
 .big-box-container {
-    background-color: #f9f9f9;
+    background-color: #f0f0f0;
     padding: 60px;
     margin: 60px auto;
     border-radius: 20px;
@@ -123,7 +133,7 @@ button:hover {
 .logo-track {
     display: flex;
     width: calc(200px * 12);
-    animation: scroll 25s linear infinite;
+    animation: scroll 40s linear infinite;  /* ⏳ Thoda slow aur smooth */
 }
 
 .logo-track img {
@@ -131,12 +141,9 @@ button:hover {
     width: 200px;
     object-fit: contain;
     padding: 0 25px;
-   
     opacity: 0.8;
     transition: all 0.3s ease;
 }
-
-
 
 /* Animations */
 @keyframes fadeIn {
