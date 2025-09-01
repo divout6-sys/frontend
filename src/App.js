@@ -7,8 +7,11 @@ import About from './pages/About';
 import Products from './pages/Products';
 import Contact from './pages/Contact';
 import OurClients from './pages/OurClients';
+import BlackoutEssential from "./pages/BlackoutEssential";
+import CablesConnectors from "./pages/CablesConnectors";
 
-// ScrollToTop with smooth effect
+
+// ✅ ScrollToTop with smooth effect
 function ScrollToTop() {
   const { pathname } = useLocation();
 
@@ -35,6 +38,8 @@ function App() {
         <Route path="/products" element={<Products />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/clients" element={<OurClients />} />
+        <Route path="/blackout-essential" element={<BlackoutEssential />} />
+        <Route path="/cables-connectors" element={<CablesConnectors />} />
       </Routes>
 
       <Footer /> 

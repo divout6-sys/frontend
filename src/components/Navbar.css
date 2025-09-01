@@ -7,13 +7,11 @@
     justify-content: center;
     transition: background-color 0.3s ease;
     z-index: 1000;
-    background-color: transparent;
-    /* Transparent initially */
+    background-color: transparent; /* Transparent initially */
 }
 
 .navbar.scrolled {
-    background-color: rgba(13, 18, 14, 0.9);
-    /* Solid background when scrolling */
+    background-color: rgba(13, 18, 14, 0.9); /* Solid background when scrolling */
 }
 
 .nav-links {
@@ -24,15 +22,23 @@
     padding: 0;
 }
 
-.nav-links a {
+.nav-links li {
+    position: relative;
+}
+
+.nav-links a, 
+.nav-links span {
     position: relative;
     color: white;
     text-decoration: none;
     font-weight: bold;
+    cursor: pointer;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
 }
 
-.nav-links a::after {
+/* Hover underline for links */
+.nav-links a::after, 
+.nav-links span::after {
     content: "";
     position: absolute;
     bottom: -5px;
@@ -43,6 +49,46 @@
     transition: width 0.3s ease;
 }
 
-.nav-links a:hover::after {
+.nav-links a:hover::after,
+.nav-links span:hover::after {
     width: 100%;
+}
+
+/* ------------------ */
+/* Dropdown Menu CSS  */
+/* ------------------ */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    padding: 10px 0;
+    list-style: none;
+    min-width: 240px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    border-radius: 4px;
+    z-index: 2000;
+}
+
+.dropdown-menu li {
+    margin: 0;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 8px 15px;
+    color: black;
+    font-weight: normal;
+    text-decoration: none;
+    transition: background 0.2s ease;
+}
+
+.dropdown-menu a:hover {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-menu {
+    display: block;
 }

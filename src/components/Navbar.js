@@ -19,7 +19,17 @@ function Navbar() {
             <ul className="nav-links">
                 <li><Link to="/">HOME</Link></li>
                 <li><Link to="/about">ABOUT US</Link></li>
-                <li><Link to="/products">PRODUCTS</Link></li>
+                
+                {/* 🔽 Dropdown Start */}
+                <li className="dropdown">
+                    <span>PRODUCTS ▼</span>
+                    <ul className="dropdown-menu">
+                        <li><Link to="/blackout-essential">BLACKOUT LIGHTS & ESSENTIAL</Link></li>
+                        <li><Link to="/cables-connectors">CABLES & CONNECTORS</Link></li>
+                    </ul>
+                </li>
+                {/* 🔽 Dropdown End */}
+
                 <li><Link to="/contact">CONTACT</Link></li>
                 <li><Link to="/clients">OUR CLIENTS</Link></li>
             </ul>
